@@ -1,0 +1,1 @@
+[{"id":"987674b5.9866f","type":"mysql","z":"db15d82d.5e5868","mydb":"78f5edff.8eb6dc","name":"Mysql - gps_log","x":940,"y":180,"wires":[["2e8041d4.de11de"]]},{"id":"78f5edff.8eb6dc","type":"MySQLdatabase","z":"","host":"127.0.0.1","port":"3306","db":"gps_log","tz":""}]
