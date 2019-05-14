@@ -1,0 +1,1 @@
+[{"id":"bbaa0342.fd7bc","type":"mongodb in","z":"afaa3d01.7e15a8","mongodb":"b9ecb6c7.9dc8e8","name":"find temperatura","collection":"temperatura","operation":"find","x":440,"y":400,"wires":[["ea318091.25266","d461f5d6.6f9638"]]},{"id":"b9ecb6c7.9dc8e8","type":"mongodb","z":"","hostname":"127.0.0.1","port":"27017","db":"medidas","name":""}]
