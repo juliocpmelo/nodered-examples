@@ -6,13 +6,13 @@ Os exemplos abaixo usam como base um banco de dados mongo db
 Os dados são organizados no banco da seguinte forma:
 
 - Todos os dispositivos cadastrados são inseridos na coleção dispositivos. Cada entrada desta coleção tem os campos: 
--- deviceId: nome atribuido ao dispoistivo
--- deviceToken: token gerado pelo sistema e atribuido ao dispositivo
--- sensores: vetor com todos os sensores cadastrados
+  - deviceId: nome atribuido ao dispoistivo
+  - deviceToken: token gerado pelo sistema e atribuido ao dispositivo
+  - sensores: vetor com todos os sensores cadastrados
 
 - Para cada dispositivo cadastrado, existe uma entrada na coleçao dados. Esta entrada tem os campos:
--- deviceToken: token relativo ao dispositiv
--- <sensor>: um campo com o nome do sensor cadastrado contendo um vetor no formato {timestamp:tempo, valor:[<vetor de valores>]}
+  - deviceToken: token relativo ao dispositiv
+  - <sensor>: um campo com o nome do sensor cadastrado contendo um vetor no formato {timestamp:tempo, valor:[<vetor de valores>]}
 
 
 
