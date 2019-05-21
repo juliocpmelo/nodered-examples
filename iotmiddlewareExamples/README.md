@@ -14,8 +14,7 @@ Os dados são organizados no banco da seguinte forma:
   - deviceToken: token relativo ao dispositivo
   - <sensor>: um campo com o nome do sensor, para cada sensor cadastrado. Esse campo contém um vetor no formato {timestamp:tempo, valor:[<vetor de valores>]}
   
-Para usar os exemplos importe no node red usando import > clipboard > new flow
-Tenha certeza de que os componentes do dashboard estão organizados da seguinte maneira:
+Para usar os exemplos importe no node-red usando import > clipboard > new flow. Tenha certeza também que os componentes do dashboard estão organizados da seguinte maneira:
 - Login screen (disabilitado por padrão)
   - Sign-in
     - Dashboard Sign-In
