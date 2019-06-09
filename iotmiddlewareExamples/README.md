@@ -36,6 +36,10 @@ Para usar os exemplos importe no node-red usando import > clipboard > new flow. 
   - Group 1
     - spacer 1x1
 
+Uma vez rodando no node RED o sistema pode ser testado usando o seguinte comando da curl:
 
+```shell
+curl --header "Content-Type: application/json" --request POST http://192.168.40.101:1880/postData --data '{"deviceToken":"2mpkachz64aqn9zxa5ctq","sensor":"s4","timestamp":10,"valor":[6]}'
+```
 
-
+Veja que esse comando usa um dispositivo cujo token é 2mpkachz64aqn9zxa5ctq, e possui o sensor s4 cadastrado.
